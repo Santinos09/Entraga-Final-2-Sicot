@@ -24,7 +24,7 @@ h1 {
 .main {
   display: flex;
   flex-direction: left;
-  background-color: cadetblue;
+  background-color: gray;
   grid-area: main;
   align-content: center;
   flex-wrap: wrap;
@@ -63,7 +63,7 @@ ul li {
 }
 
 .footer {
-  background-color: cadetblue;
+  background-color: gainsboro;
   color: lightblue;
   padding: 10px;
   font-weight: bolder;
@@ -72,9 +72,15 @@ ul li {
 
 /* Selector de tipo ID */
 .datosTabla {
+  padding: 8px;
   background-color: wheat;
   font-size: 23px;
   text-align: center;
+}
+
+.img-tabla{
+  width: 400px;
+  height: 250px;
 }
 
 /*nomenclatura.
@@ -86,7 +92,7 @@ ul li {
 /* ---------- CONTACTO HTML------------ */
 .formulario{
   padding: 8px;
-  background-color: cadetblue;
+  background-color: gray;
 }
 
 .formulario input:focus{
@@ -95,6 +101,10 @@ ul li {
   transition: .3s;
 }
 
+.parrafo{
+  background-color: grey;
+  padding: 8px;
+}
 @keyframes cambioColor{
   0%{
     background-color:red
