@@ -96,7 +96,7 @@ ul li {
 }
 
 .formulario input:focus{
-  background-color:grey;
+  background-color:gainsboro;
   transform: scale(1.05);
   transition: .3s;
 }
